@@ -14,7 +14,24 @@ Crime is an issue that many people deeply care about. Crime influences important
 
 ## 2.0 Design Situation
 
-Use short sub-sections to describe your topic and the setting (that is, the sociotechnical situation), including project framing, human values, direct and indirect stakeholders, possible harms and benefits. See the Design Brief, section B.3. **Note**: You *must* include three citations to related work (URLs to similar work, high quality articles from the popular press, reseach papers, etc. ). You may find it helpful to include a figure.  (about 400 words) |
+**Framing**: The topic of concern is crime in Seattle. There are multiple elements making this topic, namely: crime types, crime rates, areas of crime, income. Moreover, there are several questions to be asked about:
+- Does *income* have a causal relationship with *crime rates*?
+- What are the *factors* of a neighborhood in Seattle that affect *crime rate* in that area?
+- What are the most prominent *types of crime* in Seattle?
+
+**Human values**: Our project concerns with moral values categorized into these factors: *Personal-sexual*, *Social Trust*, *Legal-illegal*, *Self-interest*, which are the moral factors discussed in the article _MORAL VALUES, SOCIAL TRUST AND INEQUALITY: Can Values Explain Crime?_ [^1] In this study, general measures of moral values and tolerances have little to no relationships with the covariants of crime, but a sub-set of *Self-interest* items offer some explanations. *Self-interest* values directly associates with crime rates at national levels. Surprisingly, *Standard of Living* and *Social Trust* was not found to be responsible for crime rates, rather, they offered to be conditions for the variance of crime in difference settings.
+
+**Stakeholders**: Our project is open to the public, therefore citizens, politicians, journalists, law practitioners get access to our data. These individuals then can help influence the policies and laws to make people' lives safer. Internally, the criminal justice system includes those who are responsible for enforcing and interpreting the law. Internal stakeholders of the criminal justice system could potentially include persons who are suspected of crimes and convicted. Externally, the media, groups that serve victims of crime, families, businesses, school and society can be impacted.[^3] People who consume media that use our project's
+data can be influenced by the media' narratives. Similarly, people who are influenced by the politicians' and law practitioners' interpretations of our data can have a different viewpoint about these crimes and the elements surrounding them.
+
+**Benefits and Harms**: In general, since these data about crimes are unbiased,
+the public are expected to have an objective and more comprehensive view of the crimes, the income, and the direct stakeholders. Law enforcement can better make a case to acquire these resources needed to fight crime.[^2] Crime-fighting problems can be addressed to find solutions.  On the other hand, direct stakeholders can misinterpret the data in order to spread mis/disinformation for unethical/selfish motives. Insufficient data could also cause data errors that shape the results in unintentional ways. Moreover, social media can have a bias view of this data, representing a false narrative of crime data. This following figure shows the difference between frequencies of different types of crimes against crime-related tweets
+
+![`ALT` Observed frequency of different types of crime against crime-related tweets.](final-project/images/crime-tweet.jpg)
+
+[^1] [Halpern, D. (2001). MORAL VALUES, SOCIAL TRUST AND INEQUALITY: Can Values Explain Crime? The British Journal of Criminology, 41(2), 236–251.]( http://www.jstor.org/stable/23638820)
+[^2] [The benefits of criminal justice data: Beyond policing](https://sunlightfoundation.com/2015/05/01/the-benefits-of-criminal-justice-data-beyond-policing/)
+[^3] [Identifying Criminal Justice Stakeholders] (https://study.com/academy/lesson/identifying-criminal-justice-stakeholders.html#:~:text=Internal%20stakeholders%20include%20police%20officers,court%20personnel%2C%20and%20other%20individuals.)
 
 ## 3.0 Research questions
 Our questions revolve around identifying trends in crime rates within Seattle. The questions that we want to explore are:
