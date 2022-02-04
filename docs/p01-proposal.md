@@ -1,7 +1,7 @@
-# Crime Rate vs Income in Seattle : Project Proposal
+# Seattle Crime : Project Proposal
 
 **Code name** : Happy neighborhoods    
-**Project title** : Crime Rate vs Income in Seattle  
+**Project title** : Seattle Crime  
 **Authors** : Alexander Valentino Evans (ave5@uw.edu), Saranya Gores (saranya@uw.edu), Noah Adam Hellyer (hellynoa@uw.edu), Ryan Trieu (dtrieu99@uw.edu)
 
 **Affiliation** : INFO-201: Technical Foundations of Informatics - The Information School - University of Washington    
