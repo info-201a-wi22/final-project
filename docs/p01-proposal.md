@@ -33,7 +33,7 @@ the public are expected to have an objective and more comprehensive view of the 
 
 [^2] [The benefits of criminal justice data: Beyond policing](https://sunlightfoundation.com/2015/05/01/the-benefits-of-criminal-justice-data-beyond-policing/) .
 
-[^3] [Identifying Criminal Justice Stakeholders] (https://study.com/academy/lesson/identifying-criminal-justice-stakeholders.html#:~:text=Internal%20stakeholders%20include%20police%20officers,court%20personnel%2C%20and%20other%20individuals.) .
+[^3] [Identifying Criminal Justice Stakeholders](https://study.com/academy/lesson/identifying-criminal-justice-stakeholders.html#:~:text=Internal%20stakeholders%20include%20police%20officers,court%20personnel%2C%20and%20other%20individuals.) .
 
 ## 3.0 Research questions
 Our questions revolve around identifying trends in crime rates within Seattle. The questions that we want to explore are:
