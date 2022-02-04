@@ -1,5 +1,5 @@
 # Crime Rate vs Income in Seattle : Project Proposal
----
+
 **Code name** : Happy neighborhoods    
 **Project title** : Crime Rate vs Income in Seattle  
 **Authors** : Alexander Valentino Evans (ave5@uw.edu), Saranya Gores (saranya@uw.edu), Noah Adam Hellyer (hellynoa@uw.edu), Ryan Trieu (dtrieu99@uw.edu)
@@ -8,8 +8,6 @@
 **Date** : Winter 2022  
 **Abstract** :  We are interested in identifying trends within crime rates in Seattle. This is an important topic to understand because it can ultimately be used to influence policy that makes our lives safer. To address this question, we will utilize data collected over the past decade regarding crime rates in Seattle.  
 **Keywords** :  Seattle crime, Violent Crime, Property Crime, Income by Location, Crime rate and Income
-
----
 
 ## 1.0 Introduction
 Crime is an issue that many people deeply care about. Crime influences important issues such as our economy and political opinions. Crime rates can vary wildly between different neighborhoods within a city. As an example, downtown Seattle is known for having a higher rate of crime compared to the rest of the city. Our area of research for this project intends to dive deeply into crime data and understand trends that exist within that data. Additionally, we want to identify what kinds of correlations we can draw with crime from other data such as income rates. We will utilize two datasets containing crime and income data within Seattle neighborhoods over the past decade. Our goal is to capture meaningful information that Seattle politicians can utilize to make informed policy decisions that reduce crime in our city. We all would like to make Seattle a safer place to live.
