@@ -27,7 +27,7 @@ data can be influenced by the media' narratives. Similarly, people who are influ
 **Benefits and Harms**: In general, since these data about crimes are unbiased,
 the public are expected to have an objective and more comprehensive view of the crimes, the income, and the direct stakeholders. Law enforcement can better make a case to acquire these resources needed to fight crime.[^2] Crime-fighting problems can be addressed to find solutions.  On the other hand, direct stakeholders can misinterpret the data in order to spread mis/disinformation for unethical/selfish motives. Insufficient data could also cause data errors that shape the results in unintentional ways. Moreover, social media can have a bias view of this data, representing a false narrative of crime data. This following figure shows the difference between frequencies of different types of crimes against crime-related tweets
 
-![`ALT` Observed frequency of different types of crime against crime-related tweets.](final-project/images/crime-tweet.jpg)
+![`ALT` Observed frequency of different types of crime against crime-related tweets.](images/crime-tweet.jpg)
 
 [^1] [Halpern, D. (2001). MORAL VALUES, SOCIAL TRUST AND INEQUALITY: Can Values Explain Crime? The British Journal of Criminology, 41(2), 236–251.]( http://www.jstor.org/stable/23638820)
 [^2] [The benefits of criminal justice data: Beyond policing](https://sunlightfoundation.com/2015/05/01/the-benefits-of-criminal-justice-data-beyond-policing/)
