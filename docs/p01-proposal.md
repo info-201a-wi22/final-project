@@ -29,9 +29,11 @@ the public are expected to have an objective and more comprehensive view of the 
 
 ![`ALT` Observed frequency of different types of crime against crime-related tweets.](/images/crime-tweet.jpg)
 
-[^1] [Halpern, D. (2001). MORAL VALUES, SOCIAL TRUST AND INEQUALITY: Can Values Explain Crime? The British Journal of Criminology, 41(2), 236–251.]( http://www.jstor.org/stable/23638820)
-[^2] [The benefits of criminal justice data: Beyond policing](https://sunlightfoundation.com/2015/05/01/the-benefits-of-criminal-justice-data-beyond-policing/)
-[^3] [Identifying Criminal Justice Stakeholders] (https://study.com/academy/lesson/identifying-criminal-justice-stakeholders.html#:~:text=Internal%20stakeholders%20include%20police%20officers,court%20personnel%2C%20and%20other%20individuals.)
+[^1] [Halpern, D. (2001). MORAL VALUES, SOCIAL TRUST AND INEQUALITY: Can Values Explain Crime? The British Journal of Criminology, 41(2), 236–251.]( http://www.jstor.org/stable/23638820) .
+
+[^2] [The benefits of criminal justice data: Beyond policing](https://sunlightfoundation.com/2015/05/01/the-benefits-of-criminal-justice-data-beyond-policing/) .
+
+[^3] [Identifying Criminal Justice Stakeholders] (https://study.com/academy/lesson/identifying-criminal-justice-stakeholders.html#:~:text=Internal%20stakeholders%20include%20police%20officers,court%20personnel%2C%20and%20other%20individuals.) .
 
 ## 3.0 Research questions
 Our questions revolve around identifying trends in crime rates within Seattle. The questions that we want to explore are:
