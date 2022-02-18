@@ -21,11 +21,11 @@ Crime is an issue that many people deeply care about. Crime influences important
 
 **Human values**: Our project concerns with moral values categorized into these factors: *Personal-sexual*, *Social Trust*, *Legal-illegal*, *Self-interest*, which are the moral factors discussed in the article _MORAL VALUES, SOCIAL TRUST AND INEQUALITY: Can Values Explain Crime?_ [^1] In this study, general measures of moral values and tolerances have little to no relationships with the covariants of crime, but a sub-set of *Self-interest* items offer some explanations. *Self-interest* values directly associates with crime rates at national levels. Surprisingly, *Standard of Living* and *Social Trust* was not found to be responsible for crime rates, rather, they offered to be conditions for the variance of crime in difference settings.
 
-**Stakeholders**: Our project is open to the public, therefore citizens, politicians, journalists, law practitioners get access to our data. These individuals then can help influence the policies and laws to make people' lives safer. Internally, the criminal justice system includes those who are responsible for enforcing and interpreting the law. Internal stakeholders of the criminal justice system could potentially include persons who are suspected of crimes and convicted. Externally, the media, groups that serve victims of crime, families, businesses, school and society can be impacted.[^3] People who consume media that use our project's
+**Stakeholders**: Our project is open to the public, therefore citizens, politicians, journalists, law practitioners get access to our data. These individuals then can help influence the policies and laws to make people' lives safer. Internally, the criminal justice system includes those who are responsible for enforcing and interpreting the law. Internal stakeholders of the criminal justice system could potentially include persons who are suspected of crimes and convicted. Externally, the media, groups that serve victims of crime, families, businesses, school and society can be impacted. [^3] People who consume media that use our project's
 data can be influenced by the media' narratives. Similarly, people who are influenced by the politicians' and law practitioners' interpretations of our data can have a different viewpoint about these crimes and the elements surrounding them.
 
 **Benefits and Harms**: In general, since these data about crimes are unbiased,
-the public are expected to have an objective and more comprehensive view of the crimes, the income, and the direct stakeholders. Law enforcement can better make a case to acquire these resources needed to fight crime.[^2] Crime-fighting problems can be addressed to find solutions.  On the other hand, direct stakeholders can misinterpret the data in order to spread mis/disinformation for unethical/selfish motives. Insufficient data could also cause data errors that shape the results in unintentional ways. Moreover, social media can have a bias view of this data, representing a false narrative of crime data. This following figure shows the difference between frequencies of different types of crimes against crime-related tweets [^4]
+the public are expected to have an objective and more comprehensive view of the crimes, the income, and the direct stakeholders. Law enforcement can better make a case to acquire these resources needed to fight crime. [^2] Crime-fighting problems can be addressed to find solutions.  On the other hand, direct stakeholders can misinterpret the data in order to spread mis/disinformation for unethical/selfish motives. Insufficient data could also cause data errors that shape the results in unintentional ways. Moreover, social media can have a bias view of this data, representing a false narrative of crime data. This following figure shows the difference between frequencies of different types of crimes against crime-related tweets. [^4]
 
 ![`ALT` Observed frequency of different types of crime against crime-related tweets.](/images/crime-tweet.jpg)
 
@@ -55,17 +55,17 @@ Answering the research questions would create implications for a lot of importan
 There are many limitations when it comes to research on certain topics, especially when they might be specific to a smaller group. Some limitations that could very possibly come up that could have to do with our topic is a lack of data. Since our topic is specific to one city instead of a state or even the world, there could be a shortage of data we can actually find, which could also lead to a lack of sample sizes for the important information we need to collect for our specific topic. Also data that is being reported based on one's self could also be a problem, as everyone has biases when it comes to race and culture, other things take place when people try to give out information in these situations like having selective memory, telescoping, attribution, or exaggeration. Problems like prior research and time constraint would be based on our dedication to getting our work complete.
 
 ## Acknowledgements
-Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.
+We have no acknowledgements at this time.
+
+## Appendix A : Questions
+We don't have any questions at this time.
 
 ## References
 
-[^1] [Halpern, D. (2001). MORAL VALUES, SOCIAL TRUST AND INEQUALITY: Can Values Explain Crime? The British Journal of Criminology, 41(2), 236–251.]( http://www.jstor.org/stable/23638820) .
+[^1]: [Halpern, D. (2001). MORAL VALUES, SOCIAL TRUST AND INEQUALITY: Can Values Explain Crime? The British Journal of Criminology, 41(2), 236–251.]( http://www.jstor.org/stable/23638820) .
 
-[^2] [The benefits of criminal justice data: Beyond policing](https://sunlightfoundation.com/2015/05/01/the-benefits-of-criminal-justice-data-beyond-policing/) .
+[^2]: [The benefits of criminal justice data: Beyond policing](https://sunlightfoundation.com/2015/05/01/the-benefits-of-criminal-justice-data-beyond-policing/) .
 
-[^3] [Identifying Criminal Justice Stakeholders](https://study.com/academy/lesson/identifying-criminal-justice-stakeholders.html#:~:text=Internal%20stakeholders%20include%20police%20officers,court%20personnel%2C%20and%20other%20individuals.) .
+[^3]: [Identifying Criminal Justice Stakeholders](https://study.com/academy/lesson/identifying-criminal-justice-stakeholders.html#:~:text=Internal%20stakeholders%20include%20police%20officers,court%20personnel%2C%20and%20other%20individuals.) .
 
-[^4] [Prieto Curiel, R., Cresci, S., Muntean, C.I. et al. Crime and its fear in social media. Palgrave Commun 6, 57 (2020). ](https://doi.org/10.1057/s41599-020-0430-7)
-
-## Appendix A : Questions
-Do you have questions for your TA or instructor?  Include them here.
+[^4]: [Prieto Curiel, R., Cresci, S., Muntean, C.I. et al. Crime and its fear in social media. Palgrave Commun 6, 57 (2020). ](https://doi.org/10.1057/s41599-020-0430-7)
