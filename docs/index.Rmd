@@ -13,6 +13,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+source("../source/summaryscript.R")
 ```
 ## Seattle Crime Report
 # 1.0 Introduction 
@@ -31,9 +32,6 @@ Crime is an issue that many people deeply care about. Crime influences important
 # Acknowledgements
 We have no acknowledgements at this time.
 
-# Appendix A : Questions
-We don't have any questions at this time.
-
 ## References
 
 [^1]: [Halpern, D. (2001). MORAL VALUES, SOCIAL TRUST AND INEQUALITY: Can Values Explain Crime? The British Journal of Criminology, 41(2), 236–251.]( http://www.jstor.org/stable/23638820) .
@@ -44,6 +42,10 @@ We don't have any questions at this time.
 
 [^4]: [Prieto Curiel, R., Cresci, S., Muntean, C.I. et al. Crime and its fear in social media. Palgrave Commun 6, 57 (2020). ](https://doi.org/10.1057/s41599-020-0430-7)
 
+Here are the top 10 crime parent groups 
+```{Crime parent group top 10}
+kable(crime_data_top_10, col.names = c("Country", "Change in Life Expectancy"))
+```
 ## Plots
 
 You can also embed plots, for example:
@@ -53,3 +55,5 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
