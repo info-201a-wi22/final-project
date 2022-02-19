@@ -110,19 +110,5 @@ We have no acknowledgements at this time.
 
 [^4]: [Prieto Curiel, R., Cresci, S., Muntean, C.I. et al. Crime and its fear in social media. Palgrave Commun 6, 57 (2020). ](https://doi.org/10.1057/s41599-020-0430-7)
 
-Here are the top 10 crime parent groups 
-```{Crime parent group top 10, echo = false}
-### Show the top 10 table
-kable(crime_data_top_10, col.names = c("Country", "Change in Life Expectancy"))
-```
-## Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 
