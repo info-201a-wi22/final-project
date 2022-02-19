@@ -5,7 +5,7 @@ library(ggExtra)
 # load crimes dataset
 crime_data <- read.csv("data/seattle_crime_data.csv")
 
-# extract latitude, longitude, catgegory, and offense from crime ddata
+# extract latitude, longitude, catgegory, and offense from crime data
 # filter to just crimes in 2019. Remove non-crimes.
 crime_data_allup <- crime_data %>%
   mutate(year = str_extract(Report.Number, "^[0-9]{4}")) %>%
