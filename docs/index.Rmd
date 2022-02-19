@@ -85,17 +85,21 @@ Census tract with the lowest household income by race in 2019: ```r lowest_incom
 source("../source/Chart1_Top_Crime_Categories.R")
 crime_plot
 ```
+This chart represents the number of crimes in King County and displays the 10 biggest categories for each type of crime. The purpose of this graph is to get a better understanding of what type of crimes happen the most in the greater Seattle area. I think the most notable observation is Larceny-Theft being the largest with over 200,000 crimes happening from the years 2013-2019. I think the most surprising piece of data was assault offenses being the second highest committed crime.
+
 ##### Chart 2
 ```
 source("../source/Chart2_Crime_Density_2019.R")
 base_plot
 ```
+This heat map represents the number of crimes in the Seattle area in 2019. We can see that the crime levels are a lot higher in the more central city areas of Seattle compared to the outer areas of Seattle. This could be due to many factors like high homeless levels, higher gang activity, higher poverty rates, and/or more growing population. This type of information can be important when it come down to choosing where to live or being more aware of the area if you live or  plan on visiting these more central areas. 
+
 ##### Chart 3
 ```
 source("../source/Chart3_Crimes_vs_Income_2019.R")
 p
 ```
-
+This chart represents the correlation between income and number of crimes in 2019 for each area in Seattle. Each data point represents a single latitude and longitude value rounded to 2 decimal places, which means an area of approximately 1 km^2. This graph shows that there is a negative correlation between income and number of crimes for both property and violent crimes. We can use this information to validate that the areas with higher income have less crime on average. Using the income rate map from the previous section, we can find the safest places to live. We can also see that property crime appears 10x more than violent crime at a rate of 100 crimes per 1km^2 vs the 10 crimes per 1km^2 for violent crime.
 
 # Acknowledgements
 We have no acknowledgements at this time.
