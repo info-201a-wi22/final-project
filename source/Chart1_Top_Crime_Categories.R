@@ -3,7 +3,7 @@ library(scales)
 library(tidyverse)
 
 # Reads the crime_data from the data folder.
-crime_data <- read.csv("C:\\Users\\noahh\\Documents\\Info_201_Final_Project\\final-project\\data\\seattle_crime_data.csv")
+crime_data <- read.csv("data//seattle_crime_data.csv")
 
 # Finds the total amount of crime for each crime category and filters the top 10.
 count <- crime_data %>%
