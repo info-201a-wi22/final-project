@@ -21,10 +21,10 @@ crime_group_2019 <- crime_data %>%
   group_by(Offense.Parent.Group) %>%
   count() 
 most_committed_crime_group_2019 <- crime_group_2019 %>%
-  filter(n == max(n)) %>%
+  filter(n == max(n)) 
   
 
-#Least committed crime group in 2019
+#Least committexd crime group in 2019
 least_committed_crime_group_2019 <- crime_group_2019 %>%
   filter(n == min(n)) %>%
   pull(Offense.Parent.Group)
