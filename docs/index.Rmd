@@ -1,49 +1,50 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "Seattle Crime"
+author: "Alexander Valentino Evans (ave5@uw.edu), Saranya Gores (saranya@uw.edu), Noah Adam Hellyer (hellynoa@uw.edu), Ryan Trieu (dtrieu99@uw.edu)"
+date: "2/18/2022"
 output: html_document
 ---
+**Affiliation**: "INFO-201: Technical Foundations of Informatics - The Information School - University of Washington"
+
+**Abstract** :  We are interested in identifying trends within crime rates in Seattle. This is an important topic to understand because it can ultimately be used to influence policy that makes our lives safer. To address this question, we will utilize data collected over the past decade regarding crime rates in Seattle.  
+
+**Keywords** :  Seattle crime, Violent Crime, Property Crime, Income by Location, Crime rate and Income
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## Seattle Crime Report
+# 1.0 Introduction 
+Crime is an issue that many people deeply care about. Crime influences important issues such as our economy and political opinions. Crime rates can vary wildly between different neighborhoods within a city. As an example, downtown Seattle is known for having a higher rate of crime compared to the rest of the city. Our area of research for this project intends to dive deeply into crime data and understand trends that exist within that data. Additionally, we want to identify what kinds of correlations we can draw with crime from other data such as income rates. We will utilize two datasets containing crime and income data within Seattle neighborhoods over the past decade. Our goal is to capture meaningful information that Seattle politicians can utilize to make informed policy decisions that reduce crime in our city. We all would like to make Seattle a safer place to live.
 
-## What is this file for?
+# 2.0 Design Situation 
 
-* This file will eventually become your project report for **P02: Exploratory Data Analysis**. Specifically, you will write rmarkdown to report your exploratory data analysis.
+# 3.0 Research Questions
 
-* Please see Canvas for more details.
+# 4.0 The Dataset
 
-## ACCESSING THE /source DIRECTORY
-### Example 1: Source some code and run a function
-```{r}
-# Example 1: Note relative path, which can be read: Up one
-# directory(..), down into source (/source), and 
-# then "source" an R file (data_access.R)
-source("../source/data_access.R")
-data_access_test()
-```
+# 5.0 Expected Implications
 
-### Example 2: Initialize a variable and then use it
-```{r}
-# Example 1: This function was "sourced" above
-msg <- data_access_test(" Morgan!")
-```
+# 6.0 Limitations
 
-> `r msg` Hope you have a good day!! 
+# Acknowledgements
+We have no acknowledgements at this time.
 
-## ABOUT THIS FILE: 
+# Appendix A : Questions
+We don't have any questions at this time.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## References
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+[^1]: [Halpern, D. (2001). MORAL VALUES, SOCIAL TRUST AND INEQUALITY: Can Values Explain Crime? The British Journal of Criminology, 41(2), 236–251.]( http://www.jstor.org/stable/23638820) .
 
-```{r cars}
-summary(cars)
-```
+[^2]: [The benefits of criminal justice data: Beyond policing](https://sunlightfoundation.com/2015/05/01/the-benefits-of-criminal-justice-data-beyond-policing/) .
 
-## Including Plots
+[^3]: [Identifying Criminal Justice Stakeholders](https://study.com/academy/lesson/identifying-criminal-justice-stakeholders.html#:~:text=Internal%20stakeholders%20include%20police%20officers,court%20personnel%2C%20and%20other%20individuals.) .
+
+[^4]: [Prieto Curiel, R., Cresci, S., Muntean, C.I. et al. Crime and its fear in social media. Palgrave Commun 6, 57 (2020). ](https://doi.org/10.1057/s41599-020-0430-7)
+
+## Plots
 
 You can also embed plots, for example:
 
