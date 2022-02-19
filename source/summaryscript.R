@@ -36,7 +36,7 @@ highest_income_2019 <- incomebylocationdata %>%
   pull(Geography)
 
 #Census tract with the lowest household income by race in 2019
-highest_income_2019 <- incomebylocationdata %>%
+lowest_income_2019 <- incomebylocationdata %>%
   filter(Year == 2019) %>%
   filter(`Household Income by Race` == min(`Household Income by Race`)) %>%
   pull(Geography)
