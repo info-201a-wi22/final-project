@@ -2,8 +2,8 @@ library(dplyr)
 library(tidyr)
 
 
-crime_data <- read_csv("/Users/rtdt/documents/info-201-exercises/final-project/data/seattle_crime_data.csv")
-incomebylocationdata <- read_csv("/Users/rtdt/documents/info-201-exercises/final-project/data/income_by_location.csv")
+crime_data <- read_csv("../data/seattle_crime_data.csv")
+incomebylocationdata <- read_csv("../data/income_by_location.csv")
 
 # Finds the total amount of crime for each crime category and filters the top 10.
 count <- crime_data %>%
