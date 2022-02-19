@@ -60,7 +60,7 @@ crime_category_income_data <- income_data %>%
 # plot the graph with groups
 p <- ggplot(crime_category_income_data, aes(x = crimes_per_km, y = median_income, color = category)) +
   geom_point() +
-  scale_x_continuous(trans='log10') +
+  scale_x_continuous(trans = 'log10') +
   labs(title = "Crimes Density vs. Median Income in Seattle 2019") +
   geom_smooth() +
   theme(
@@ -68,6 +68,4 @@ p <- ggplot(crime_category_income_data, aes(x = crimes_per_km, y = median_income
   )
 
 # Plot the scatter plot with marginal histograms
-ggMarginal(p,
-           groupColour = TRUE,
-           groupFill = TRUE)
+ggMarginal(p, groupColour = TRUE, groupFill = TRUE)
