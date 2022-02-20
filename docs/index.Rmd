@@ -110,7 +110,7 @@ This chart represents the number of crimes in King County and displays the 10 bi
 ##### Chart 2
 ```{r Chart 2}
 source("../source/Chart2_Crime_Density_2019.R")
-base_plot
+crime_heat_map
 ```
 
 

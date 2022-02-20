@@ -11,9 +11,11 @@ crime_data_table <- crime_data %>%
   mutate(Year =  format(as.Date(crime_data$Offense.Start.DateTime, format="%d/%m/%Y"),"%Y")) %>%
   select(Year,Offense.Parent.Group,Crime.Against.Category,Offense,MCPP) %>%
   setnames(old = c('Year','Offense.Parent.Group','Crime.Against.Category','Offense','MCPP'), new = c('year','crime_group','crime_against','crime','MCPP')) %>%
-  group_by(MCPP) %>%
   filter(MCPP == "UNIVERSITY") %>%
   filter(year == "2019") %>%
-  filter(crime_against == "SOCIETY")
+  group_by(crime) %>%
+  count()
+  
+  
 
 
