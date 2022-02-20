@@ -2,8 +2,8 @@ library(dplyr)
 library(tidyr)
 
 
-crime_data <- read_csv("../data/seattle_crime_data.csv")
-incomebylocationdata <- read_csv("../data/income_by_location.csv")
+crime_data <- read_csv("data/seattle_crime_data.csv")
+incomebylocationdata <- read_csv("data/income_by_location.csv")
 
 # Finds the total amount of crime for each crime category and filters the top 10.
 count <- crime_data %>%
@@ -40,3 +40,4 @@ lowest_income_2019 <- incomebylocationdata %>%
   filter(Year == 2019) %>%
   filter(`Household Income by Race` == min(`Household Income by Race`)) %>%
   pull(Geography)
+
