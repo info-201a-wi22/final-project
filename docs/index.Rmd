@@ -17,7 +17,9 @@ library(tidyverse)
 library(dplyr)
 library(ggplot2)
 library(knitr)
+library(ggmap)
 source("../source/summaryscript.R")
+source("../source/tablescript.R")
 source("../source/Chart1_Top_Crime_Categories.R")
 source("../source/Chart2_Crime_Density_2019.R")
 source("../source/Chart3_Crimes_vs_Income_2019.R")
@@ -65,19 +67,34 @@ Answering the research questions would create implications for a lot of importan
 There are many limitations when it comes to research on certain topics, especially when they might be specific to a smaller group. Some limitations that could very possibly come up that could have to do with our topic is a lack of data. Since our topic is specific to one city instead of a state or even the world, there could be a shortage of data we can actually find, which could also lead to a lack of sample sizes for the important information we need to collect for our specific topic. Also data that is being reported based on one's self could also be a problem, as everyone has biases when it comes to race and culture, other things take place when people try to give out information in these situations like having selective memory, telescoping, attribution, or exaggeration. Problems like prior research and time constraint would be based on our dedication to getting our work complete.
 
 # Summary Information:
-Top 10 crime data categories: ```r crime_data_top_10```
+Top 10 crime data categories: 
+```{r}
+crime_data_top_10
+```
 
-Most committed crime groups in 2019: ```r most_committed_crime_group_2019```%
+Most committed crime groups in 2019: 
+```{r} 
+most_committed_crime_group_2019
+``` 
 
-Least committed crime group in 2019: ```r least_committed_crime_group_2019 ```
+Least committed crime group in 2019: 
+```{r} 
+least_committed_crime_group_2019 
+```
 
-Census tract with the highest household income by race in 2019: ```r highest_income_2019```
+Census tract with the highest household income by race in 2019: 
+```{r} 
+highest_income_2019
+```
 
-Census tract with the lowest household income by race in 2019: ```r lowest_income_2019```
+Census tract with the lowest household income by race in 2019: 
+```{r} 
+lowest_income_2019
+```
 
 
 # Aggregate Table:
-```
+```{r Table}
 source("../source/tablescript.R")
 kable(crime_data_table)
 ```
@@ -85,21 +102,21 @@ kable(crime_data_table)
 # Charts:
 #### The following charts are meant to help visualize parts of the dataset. 
 ##### Chart 1
-```
+```{r Chart 1}
 source("../source/Chart1_Top_Crime_Categories.R")
 crime_plot
 ```
 This chart represents the number of crimes in King County and displays the 10 biggest categories for each type of crime. The purpose of this graph is to get a better understanding of what type of crimes happen the most in the greater Seattle area. I think the most notable observation is Larceny-Theft being the largest with over 200,000 crimes happening from the years 2013-2019. I think the most surprising piece of data was assault offenses being the second highest committed crime.
 
 ##### Chart 2
-```
+```{r Chart 2}
 source("../source/Chart2_Crime_Density_2019.R")
 base_plot
 ```
 This heat map represents the number of crimes in the Seattle area in 2019. We can see that the crime levels are a lot higher in the more central city areas of Seattle compared to the outer areas of Seattle. This could be due to many factors like high homeless levels, higher gang activity, higher poverty rates, and/or more growing population. This type of information can be important when it come down to choosing where to live or being more aware of the area if you live or  plan on visiting these more central areas. 
 
 ##### Chart 3
-```
+```{r Chart 3}
 source("../source/Chart3_Crimes_vs_Income_2019.R")
 p
 ```
