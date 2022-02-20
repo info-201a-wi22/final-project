@@ -27,7 +27,7 @@ base_plot <- qmplot(
   darken = 0,                  
 )
 
-base_plot + 
+crime_heat_map <- base_plot + 
   stat_density2d(data = crime_data_map,
                  aes(x = longitude, y = latitude, fill = ..level.., alpha = ..level..),
                  size = 2,
@@ -39,3 +39,5 @@ base_plot +
                       mid = "yellow",
                       high = "red") + 
   ggtitle("Crime Density in Seattle 2019")
+
+crime_heat_map
