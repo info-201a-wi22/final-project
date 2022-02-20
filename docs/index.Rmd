@@ -24,7 +24,7 @@ source("../source/Chart1_Top_Crime_Categories.R")
 source("../source/Chart2_Crime_Density_2019.R")
 source("../source/Chart3_Crimes_vs_Income_2019.R")
 ```
-## Seattle Crime Report
+
 # 1.0 Introduction 
 Crime is an issue that many people deeply care about. Crime influences important issues such as our economy and political opinions. Crime rates can vary wildly between different neighborhoods within a city. As an example, downtown Seattle is known for having a higher rate of crime compared to the rest of the city. Our area of research for this project intends to dive deeply into crime data and understand trends that exist within that data. Additionally, we want to identify what kinds of correlations we can draw with crime from other data such as income rates. We will utilize two datasets containing crime and income data within Seattle neighborhoods over the past decade. Our goal is to capture meaningful information that Seattle politicians can utilize to make informed policy decisions that reduce crime in our city. We all would like to make Seattle a safer place to live.
 
@@ -97,8 +97,9 @@ kable(crime_data_table)
 ```
 
 # Charts:
-#### The following charts are meant to help visualize parts of the dataset. 
-##### Chart 1
+
+#### Chart 1 : Top 10 Crime Groups
+
 ```{r Chart 1}
 source("../source/Chart1_Top_Crime_Categories.R")
 crime_plot
@@ -107,7 +108,8 @@ crime_plot
 
 This chart represents the number of crimes in King County and displays the 10 biggest categories for each type of crime. The purpose of this graph is to get a better understanding of what type of crimes happen the most in the greater Seattle area. I think the most notable observation is Larceny-Theft being the largest with over 200,000 crimes happening from the years 2013-2019. I think the most surprising piece of data was assault offenses being the second highest committed crime.
 
-##### Chart 2
+#### Chart 2 : Crime Density in Seattle 2019
+
 ```{r Chart 2}
 source("../source/Chart2_Crime_Density_2019.R")
 base_plot
@@ -116,7 +118,8 @@ base_plot
 
 This heat map represents the number of crimes in the Seattle area in 2019. We can see that the crime levels are a lot higher in the more central city areas of Seattle compared to the outer areas of Seattle. This could be due to many factors like high homeless levels, higher gang activity, higher poverty rates, and/or more growing population. This type of information can be important when it come down to choosing where to live or being more aware of the area if you live or  plan on visiting these more central areas. 
 
-##### Chart 3
+#### Chart 3 : Crimes Density vs. Median Income in Seattle 2019
+
 ```{r Chart 3}
 source("../source/Chart3_Crimes_vs_Income_2019.R")
 p
