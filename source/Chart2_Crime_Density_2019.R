@@ -1,5 +1,4 @@
 library(tidyverse)
-library(ggmap)
 library(ggplot2)
 
 # load crimes dataset
