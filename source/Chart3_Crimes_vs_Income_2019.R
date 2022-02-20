@@ -3,7 +3,7 @@ library(ggplot2)
 library(ggExtra)
 
 # load crimes dataset
-crime_data <- read.csv("data/seattle_crime_data.csv")
+crime_data <- read.csv("../data/seattle_crime_data.csv")
 
 # extract latitude, longitude, catgegory, and offense from crime data
 # filter to just crimes in 2019. Remove non-crimes.
@@ -20,14 +20,14 @@ crime_data_allup <- crime_data %>%
 
 # filter the census data table for the 'GEO_ID_BLK' to keep only first 11 digits
 # and round up the latitude and longtitude to be 2 decimal places
-census_data <- read.csv("data/2020_Census_Blocks_for_King_County___blocks20_area.csv")
+census_data <- read.csv("../data/2020_Census_Blocks_for_King_County___blocks20_area.csv")
 location_data <- census_data %>% 
   summarize(geoloc = str_extract(GEO_ID_BLK, "^[0-9]{11}"), 
             longitude = round(INTPTLON20, 2), 
             latitude = round(INTPTLAT20, 2))
 
 # load income data
-income_data <- read.csv("data/income_by_location.csv")
+income_data <- read.csv("../data/income_by_location.csv")
 
 # identify the income data by filtering to work only on year '2019'
 # and using 'str_extract()' to get the ID.Geography for only 11 digits

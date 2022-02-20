@@ -1,8 +1,9 @@
 library(tidyverse)
 library(ggplot2)
+library(ggmap)
 
 # load crimes dataset
-crime_data <- read.csv("data/seattle_crime_data.csv")
+crime_data <- read.csv("../data/seattle_crime_data.csv")
 
 # extract latitude, longitude, catgegory, and offense from crime data
 # filter to just crimes in 2019. Remove non-crimes.

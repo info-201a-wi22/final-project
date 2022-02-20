@@ -4,8 +4,8 @@ library(tidyverse)
 library(data.table)
 
 
-crime_data <- read_csv("data/seattle_crime_data.csv")
-incomebylocationdata <- read_csv("data/income_by_location.csv")
+crime_data <- read_csv("../data/seattle_crime_data.csv")
+incomebylocationdata <- read_csv("../data/income_by_location.csv")
 
 crime_data_table <- crime_data %>%
   mutate(Year =  format(as.Date(crime_data$Offense.Start.DateTime, format="%d/%m/%Y"),"%Y")) %>%
