@@ -67,10 +67,7 @@ Answering the research questions would create implications for a lot of importan
 There are many limitations when it comes to research on certain topics, especially when they might be specific to a smaller group. Some limitations that could very possibly come up that could have to do with our topic is a lack of data. Since our topic is specific to one city instead of a state or even the world, there could be a shortage of data we can actually find, which could also lead to a lack of sample sizes for the important information we need to collect for our specific topic. Also data that is being reported based on one's self could also be a problem, as everyone has biases when it comes to race and culture, other things take place when people try to give out information in these situations like having selective memory, telescoping, attribution, or exaggeration. Problems like prior research and time constraint would be based on our dedication to getting our work complete.
 
 # Summary Information:
-Top 10 crime data categories: 
-```{r}
-crime_data_top_10
-```
+
 
 Most committed crime groups in 2019: 
 ```{r} 
