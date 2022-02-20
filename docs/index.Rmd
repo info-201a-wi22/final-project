@@ -11,7 +11,7 @@ output: html_document
 **Keywords** :  Seattle crime, Violent Crime, Property Crime, Income by Location, Crime rate and Income
 
 
-```{r setup, include=FALSE}
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(dplyr)
@@ -70,28 +70,28 @@ There are many limitations when it comes to research on certain topics, especial
 
 
 Most committed crime groups in 2019: 
-```{r} 
+```{r, echo = FALSE}
 most_committed_crime_group_2019
 ``` 
 
 Least committed crime group in 2019: 
-```{r} 
+```{r, echo = FALSE} 
 least_committed_crime_group_2019 
 ```
 
 Census tract with the highest household income by race in 2019: 
-```{r} 
+```{r, echo = FALSE} 
 highest_income_2019
 ```
 
 Census tract with the lowest household income by race in 2019: 
-```{r} 
+```{r, echo = FALSE} 
 lowest_income_2019
 ```
 
 
 # Aggregate Table:
-```{r Table}
+```{r Table, echo = FALSE}
 source("../source/tablescript.R")
 kable(crime_data_table)
 ```
@@ -110,7 +110,7 @@ This chart represents the number of crimes in King County and displays the 10 bi
 
 #### Chart 2 : Crime Density in Seattle 2019
 
-```{r Chart 2}
+```{r Chart 2, echo = FALSE}
 source("../source/Chart2_Crime_Density_2019.R")
 crime_heat_map
 ```
@@ -120,7 +120,7 @@ This heat map represents the number of crimes in the Seattle area in 2019. We ca
 
 #### Chart 3 : Crimes Density vs. Median Income in Seattle 2019
 
-```{r Chart 3}
+```{r Chart 3, echo = FALSE}
 source("../source/Chart3_Crimes_vs_Income_2019.R")
 p
 ```
