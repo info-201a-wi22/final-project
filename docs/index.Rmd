@@ -77,6 +77,10 @@ Census tract with the lowest household income by race in 2019: ```r lowest_incom
 
 
 # Aggregate Table:
+```
+source("../source/tablescript.R")
+kable(crime_data_table)
+```
 
 # Charts:
 #### The following charts are meant to help visualize parts of the dataset. 
