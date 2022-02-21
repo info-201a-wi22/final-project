@@ -1,38 +1,51 @@
 library(dplyr)
 library(tidyr)
 
-
 crime_data <- read_csv("../data/seattle_crime_data.csv")
 incomebylocationdata <- read_csv("../data/income_by_location.csv")
 
-#Crimes against category
-crime_data_category <- crime_data %>%
-  count(Crime.Against.Category)
-
-#Most committed crime groups in 2019
-crime_data$Year <- format(as.Date(crime_data$Offense.Start.DateTime, format="%d/%m/%Y"),"%Y")
-most_crime_group_2019 <- crime_data %>%
-  filter(Year == 2019) %>%
+crime_data_counts <- crime_data %>%
+  mutate(year = format(as.Date(crime_data$Offense.Start.DateTime, format="%d/%m/%Y"),"%Y")) %>%
+  filter(year == 2019) %>%
   group_by(Offense.Parent.Group) %>%
   count() %>%
-  arrange(-n) 
+  arrange(desc(n))
 
-#Least committed crime group in 2019
-least_crime_group_2019 <- crime_data %>%
-  filter(Year == 2019) %>%
-  group_by(Offense.Parent.Group) %>%
-  count() %>%
-  arrange(n) 
-  
-#Census tract with the highest household income by race in 2019
-highest_income_2019 <- incomebylocationdata %>%
+# Top 10 most committed crime groups in 2019
+crime_data_top_10 <- crime_data_counts %>%
+  head(10) %>%
+  rename("Number of Crimes" = n, "Crime" = Offense.Parent.Group)
+
+# Most committed crime in 2019
+most_committed_crime_group_2019 <- crime_data_counts %>%
+  filter(n == max(crime_data_counts$n)) %>%
+  pull(Offense.Parent.Group)
+
+# Least committed crime in 2019
+least_committed_crime_group_2019 <- crime_data_counts %>%
+  filter(n == min(crime_data_counts$n)) %>%
+  pull(Offense.Parent.Group)
+
+# Location with highest income in Seattle 2019
+highest_income_location_2019 <- income_by_location_data %>%
   filter(Year == 2019) %>%
   filter(`Household Income by Race` == max(`Household Income by Race`)) %>%
   pull(Geography)
 
-#Census tract with the lowest household income by race in 2019
-lowest_income_2019 <- incomebylocationdata %>%
+# Highest income in Seattle 2019
+highest_income_location_2019 <- income_by_location_data %>%
+  filter(Year == 2019) %>%
+  filter(`Household Income by Race` == max(`Household Income by Race`)) %>%
+  pull(`Household Income by Race`)
+
+# Location with lowest income in Seattle 2019
+lowest_income_location_2019 <- income_by_location_data %>%
   filter(Year == 2019) %>%
   filter(`Household Income by Race` == min(`Household Income by Race`)) %>%
   pull(Geography)
 
+# Lowest income in Seattle 2019
+lowest_income_location_2019 <- income_by_location_data %>%
+  filter(Year == 2019) %>%
+  filter(`Household Income by Race` == min(`Household Income by Race`)) %>%
+  pull(`Household Income by Race`)
