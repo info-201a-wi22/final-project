@@ -67,6 +67,11 @@ Answering the research questions would create implications for a lot of importan
 There are many limitations when it comes to research on certain topics, especially when they might be specific to a smaller group. Some limitations that could very possibly come up that could have to do with our topic is a lack of data. Since our topic is specific to one city instead of a state or even the world, there could be a shortage of data we can actually find, which could also lead to a lack of sample sizes for the important information we need to collect for our specific topic. Also data that is being reported based on one's self could also be a problem, as everyone has biases when it comes to race and culture, other things take place when people try to give out information in these situations like having selective memory, telescoping, attribution, or exaggeration. Problems like prior research and time constraint would be based on our dedication to getting our work complete.
 
 # Summary Information:
+Top 10 most committed crime groups in 2019
+```{r, echo = FALSE, warning=FALSE, message=FALSE}
+source("../source/summaryscript.R")
+crime_data_top_10
+```
 
 
 Most committed crime groups in 2019: 
@@ -81,20 +86,33 @@ least_committed_crime_group_2019
 
 Census tract with the highest household income by race in 2019: 
 ```{r, echo = FALSE} 
+highest_income_location_2019
+```
+
+Highest household income by race in 2019:
+```{r, echo = FALSE} 
 highest_income_2019
 ```
 
 Census tract with the lowest household income by race in 2019: 
 ```{r, echo = FALSE} 
+lowest_income_location_2019
+```
+
+Least household income by race in 2019:
+```{r, echo = FALSE} 
 lowest_income_2019
 ```
 
+In our study of the data, we found some interesting statistics about crime data in Seattle in 2019, the latest recorded year. The most prevalent crime in Seattle in 2019 is `r most_committed_crime_group_2019`, which is in common with many studies about crime data in the United States [^5][^6]. Moreover, the census tract with the highest household income by race in 2019 is `r highest_income_location_2019`, align with the Montlake/Portage Bay MCPP. Interestingly, the census tract with the lowest household income by race in 2019 is `r lowest_income_location_2019`, align with the University MCPP, which is the University of Washington area. 
 
 # Aggregate Table:
-```{r Table, echo = FALSE}
+```{r Table, echo = FALSE, warning=FALSE, message=FALSE}
 source("../source/tablescript.R")
 kable(crime_data_table)
 ```
+
+The table concerns with the comparison of crimes committed in between the Montlake/Portage Bay MCPP and the University MCPP, the highest income by location census tract and the lowest. There is a substantial difference between them, with the University MCPP has a much higher number of crimes committed in every category. This points to a potential causal relationship between crime rate and income by location, but more data needs to be examined before coming to such conclusion.
 
 # Charts:
 
@@ -110,7 +128,7 @@ This chart represents the number of crimes in King County and displays the 10 bi
 
 #### Chart 2 : Crime Density in Seattle 2019
 
-```{r Chart 2, echo = FALSE}
+```{r Chart 2, echo = FALSE, warning=FALSE, message=FALSE}
 source("../source/Chart2_Crime_Density_2019.R")
 crime_heat_map
 ```
@@ -120,7 +138,7 @@ This heat map represents the number of crimes in the Seattle area in 2019. We ca
 
 #### Chart 3 : Crimes Density vs. Median Income in Seattle 2019
 
-```{r Chart 3, echo = FALSE}
+```{r Chart 3, echo = FALSE, warning=FALSE, message=FALSE}
 source("../source/Chart3_Crimes_vs_Income_2019.R")
 p
 ```
@@ -137,3 +155,7 @@ This chart represents the correlation between income and number of crimes in 201
 [^3]: [Identifying Criminal Justice Stakeholders](https://study.com/academy/lesson/identifying-criminal-justice-stakeholders.html#:~:text=Internal%20stakeholders%20include%20police%20officers,court%20personnel%2C%20and%20other%20individuals.) .
 
 [^4]: [Prieto Curiel, R., Cresci, S., Muntean, C.I. et al. Crime and its fear in social media. Palgrave Commun 6, 57 (2020). ](https://doi.org/10.1057/s41599-020-0430-7)
+
+[^5]: [Topic: Property crime in the U.S. Statista. Retrieved February 21, 2022](https://www.statista.com/topics/1751/property-crime-in-the-us/#topicHeader__wrapper)  
+
+[^6]: [What are the most common crimes in the United States? Criminal Justice Degree Hub. (2015, May 24). Retrieved February 21, 2022](https://www.criminaljusticedegreehub.com/what-are-the-most-common-crimes-in-the-united-states) 
