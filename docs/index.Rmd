@@ -100,7 +100,7 @@ kable(crime_data_table)
 
 #### Chart 1 : Top 10 Crime Groups
 
-```{r Chart 1}
+```{r Chart 1, echo = FALSE}
 source("../source/Chart1_Top_Crime_Categories.R")
 crime_plot
 ```
