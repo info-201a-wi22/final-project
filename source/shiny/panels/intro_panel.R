@@ -18,7 +18,7 @@ intro_panel <- tabPanel(
         information that Seattle politicians can utilize to make informed policy 
         decisions that reduce crime in our city. We all would like to make 
         Seattle a safer place to live."),
-      h3("Question to Consider"),
+      h3("Questions to Consider"),
       p("Our questions are mainly based around finding trends in Seattle crime
         rates. The questions we are looking to explore are:"),
       p("- What types of crime are the most common in Seattle?"),
