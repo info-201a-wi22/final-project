@@ -6,7 +6,7 @@ library(mapproj)
 library(shiny)
 
 # load crimes dataset
-crime_data <- read.csv("../data/seattle_crime_data.csv") %>%
+crime_data <- read.csv("../../data/seattle_crime_data.csv") %>%
   mutate(year = str_extract(Report.Number, "^[0-9]{4}")) %>%
   filter(Crime.Against.Category != 'NOT_A_CRIME') %>%
   filter(Longitude != 0 & Latitude != 0) %>%
