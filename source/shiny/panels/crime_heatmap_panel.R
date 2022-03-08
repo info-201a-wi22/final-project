@@ -1,4 +1,7 @@
 heatmap_sidebar_content <- sidebarPanel(
+  p("Occurences of crime throughout the city are not evenly distributed."),
+  p("This heatmap shows the distribution of crimes throughout the city based on category and year"),
+  p("Select a particular crime offense and use the slider to see how the crime distribution changes from year to year."),
   selectInput(
     "map_offense",
     label = "Offense:",
@@ -13,7 +16,8 @@ heatmap_sidebar_content <- sidebarPanel(
       "Drugs" = "DRUG/NARCOTIC OFFENSES",
       "Robbery" = "ROBBERY",
       "DUI" = "DRIVING UNDER THE INFLUENCE"
-    )
+    ),
+    selected = "Theft"
   ),
   sliderInput("map_year",
               "Year:",
@@ -24,7 +28,20 @@ heatmap_sidebar_content <- sidebarPanel(
 )
 
 heatmap_main_content <- mainPanel(
-  plotlyOutput("map")
+  plotlyOutput("map"),
+  hr(),
+  h4("What areas of Seattle experience the most crime?"),
+  p("No matter what category of crime you look at, the same districs within Seattle experience the most crime.
+     Downtown dsitricts (Belltown, Pioneer Square, Sodo, and South Lake Union) all experience more crime compared to other districts across most categories of crime."),
+  p("Interstingly, burglary has hotspots within University District and Ballard in addition to the downtown districts."),
+  p("Motor vehicle theft is distributed fairly evenly across the entire city."),
+  hr(),
+  h4("How has the crime topogrophy changed in the past 6 years?"),
+  p("Most crime categories do not see significant changes of distribution in the past 6 years. 
+    However, across all categories, occurrences of crime his gone up within the same time period."),
+  p("Nearly all categories of crimes see more centralization towards the districts of most crime (downtown). Trespassing shows these trends the most clearly."),
+  p("Drug crimes, while still mostly prevalent in Belltown, have noticeably increased in Pioneer Square"),
+  p("Surprisngly, theft and robbery occurrences have neither increased or decreased significantly in the past 6 years.")
 )
 
 crime_heatmap_panel <- tabPanel(
