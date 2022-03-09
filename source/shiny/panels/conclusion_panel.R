@@ -1,7 +1,7 @@
 conclusion_panel <- tabPanel(
   "Conclusion",
   sidebarLayout(
-    sidebarPanel(
+    mainPanel(
       
       h3("Findings"),
       p("With the data shown in our visualizations, there are many important findings 
@@ -78,7 +78,7 @@ conclusion_panel <- tabPanel(
   like these is where we start to see change.")
   ),
   
-    mainPanel(
+    sidebarPanel(
         img(src = "https://momentummag.com/wp-content/uploads/2015/11/14634898052_447d10a07c_o.jpg",
             width = "95%", height = "95%"),
         p(),

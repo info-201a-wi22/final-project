@@ -8,7 +8,7 @@ top_crimes_sidebar_content <- sidebarPanel(
               value = 2019,
               sep = ""
   ),
-  img(src = "https://pbs.twimg.com/media/FNJHjeyVIAIncDm?format=jpg&name=large",
+  img(src = "https://media.indiedb.com/images/members/4/3644/3643805/profile/ezgif.com-resize_2.gif",
       width = "95%", height = "95%"),
 )
 
