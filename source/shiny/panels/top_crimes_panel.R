@@ -7,7 +7,9 @@ top_crimes_sidebar_content <- sidebarPanel(
               max = 2019,
               value = 2019,
               sep = ""
-  )
+  ),
+  img(src = "https://pbs.twimg.com/media/FNJHjeyVIAIncDm?format=jpg&name=large",
+      width = "95%", height = "95%"),
 )
 
 top_crimes_main_content <- mainPanel(
@@ -19,11 +21,11 @@ top_crimes_main_content <- mainPanel(
     better understanding of what type of crimes happen the most in the greater Seattle area."),
   hr(),
   h3("Notable Observations"),
-  p("I think one of the most interesting observations that can be concluded from
+  p("We think one of the most interesting observations that can be concluded from
     this data is comparing Assuault Offenses from 2013 to 2019. Overall crime increased
     but Assuault Offenses was one of the largest increases with a difference of 2,426
     from 2013 to 2019. Another notable observation is Trespassing on Property over 
-    tripled from 2013 to 2019. Overall I think understanding how King County has 
+    tripled from 2013 to 2019. Overall we think understanding how King County has 
     changed overtime in regard to crime offenses is useful because it allows us as 
     a community to understand where we can improve and work to uplift the people 
     around us to limit crime.")
