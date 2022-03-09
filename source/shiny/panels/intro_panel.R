@@ -1,6 +1,6 @@
 intro_panel <- tabPanel(
   "Introduction",
-  h2("Introduction"),
+  h2("Seattle Crime"),
   sidebarLayout(
     sidebarPanel(
       h3("Why Crime in Seattle?"),
@@ -41,6 +41,10 @@ intro_panel <- tabPanel(
     ),
     mainPanel(
       img(src = "https://media.istockphoto.com/photos/crime-scene-tape-barrier-in-front-of-defocused-background-picture-id1059636358?b=1&k=20&m=1059636358&s=170667a&w=0&h=mEOjYC7gRPZ4IyEm2kPxtbLy3S0k8l0SPfTvRwYoU0E=",
+          width = "95%", height = "95%"),
+      p(""),
+      p(""),
+      img(src = "https://3gz8cg829c.execute-api.us-west-2.amazonaws.com/prod/image-renderer/16x9/full/1015/center/80/a0bf4f66-18b9-4b3f-91cb-1402b7ac4fdd-large16x9_downtownSea.jpeg",
           width = "95%", height = "95%"),
     )
   )
