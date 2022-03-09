@@ -21,11 +21,12 @@ intro_panel <- tabPanel(
       h3("Questions to Consider"),
       p("Our questions are mainly based around finding trends in Seattle crime
         rates. The questions we are looking to explore are:"),
-      p("- What types of crime are the most common in Seattle?"),
-      p("- How have the crime rates changed over the decade?"),
-      p("- How does the crime rate differ between neighborhoods within Seattle?"),
-      p("- What areas of Seattle have the highest crime rates?"),
-      p("- What is the relationship between income and crime rates in Seattle?"),
+      tags$li(" What types of crime are the most common in Seattle?"),
+      tags$li("How have the crime rates changed over the decade?"),
+      tags$li("How does the crime rate differ between neighborhoods within Seattle?"),
+      tags$li("What areas of Seattle have the highest crime rates?"),
+      tags$li("What is the relationship between income and crime rates in Seattle?"),
+      p(),
       p("We will address these questions by creating interactive visualizations
         of crime rates over the different neighborhoods within the city. The 
         answer to these questions will help us understand whether crime in 

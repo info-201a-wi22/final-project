@@ -7,11 +7,12 @@ source("panels/crime_heatmap_panel.R")
 source("panels/top_crimes_panel.R")
 source("panels/crime_income_correlation_panel.R")
 source("panels/summary_panel.R")
+source("panels/conclusion_panel.R")
 source("panels/report_panel.R")
+
 
 ui <- navbarPage(
   theme = shinytheme("sandstone"),
-  #theme = "style.css",
   titlePanel(h1("Seattle Crime")),
   tags$style(
     "li a {
@@ -27,6 +28,7 @@ ui <- navbarPage(
   crime_heatmap_panel,
   crime_income_correlation_panel,
   summary_panel,
+  conclusion_panel,
   report_panel,
 )
 
