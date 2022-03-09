@@ -35,8 +35,10 @@ income_data <- read.csv("../../data/income_by_location.csv") %>%
   group_by(longitude, latitude, geoloc, year) %>%
   summarize(median_income = median(income))
 
+source("functions/build_top_categories_chart.R")
 source("functions/build_map_function.R")
 source("functions/build_crime_income_correlation_chart.R")
+
 
 
 # server
@@ -47,5 +49,9 @@ server <- function(input, output) {
   
   output$correlation_chart <- renderPlotly({ 
     return(build_crime_income_correlation_chart(crime_data, income_data, input$correlation_year, input$correlation_category))
+  })
+  
+  output$crime_plot <- renderPlotly({ 
+    return(build_top_categories_chart(crime_data, input$chart_year))
   })
 }

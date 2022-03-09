@@ -23,7 +23,8 @@ heatmap_sidebar_content <- sidebarPanel(
               "Year:",
               min = 2013,
               max = 2019,
-              value = 2019
+              value = 2019,
+              sep = ""
   )
 )
 

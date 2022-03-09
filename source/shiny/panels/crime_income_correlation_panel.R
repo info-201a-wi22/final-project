@@ -21,7 +21,8 @@ crime_income_correlation_panel <- tabPanel(
                   "Year:",
                   min = 2013,
                   max = 2019,
-                  value = 2019
+                  value = 2019,
+                  sep = ""
       ),
       p("According to the", 
         a("National Incident-Based Reporting System", href="https://ucr.fbi.gov/nibrs/2012/resources/crimes-against-persons-property-and-society#:~:text=Crimes%20Against%20Society%2C%20e.g.%2C%20gambling,property%20is%20not%20the%20object.")),
