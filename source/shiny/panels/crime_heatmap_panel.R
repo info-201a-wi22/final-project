@@ -25,7 +25,9 @@ heatmap_sidebar_content <- sidebarPanel(
               max = 2019,
               value = 2019,
               sep = ""
-  )
+  ),
+    img(src = "https://northwesturbanist.files.wordpress.com/2016/08/seattle-neighborhood-districts-map.png",
+        width = "65%", height = "65%"),
 )
 
 heatmap_main_content <- mainPanel(

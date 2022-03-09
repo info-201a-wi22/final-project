@@ -35,6 +35,8 @@ crime_income_correlation_panel <- tabPanel(
         in certain types of activity; they are typically victimless crimes in which
         property is not the object. (e.g. gambling, prostitution, and drug violations).")
       ),
+      img(src = "https://64.media.tumblr.com/dc307bdef8154fe5757f8c5a924bdb5e/0656c584b7783a01-18/s500x750/133d04153c0527d2638a5fa0f346ecde30d7bd59.gifv",
+          width = "95%", height = "95%"),
     ),
     
     mainPanel(
