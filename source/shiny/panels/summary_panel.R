@@ -14,9 +14,9 @@ summary_panel <- tabPanel(
   While drug crime is still prevalent in Belltown, it has increased noticeably in Pioneer Square. 
   Surprisingly, the number of theft and robbery incidents has not increased or decreased significantly over the last six years."),
   h2("Takeaways"),
-  h4(strong("1: Across all categories, occurrences of crime has gone up within the same time period(2013-2019).")),
+  h4(strong("1: Across all categories, occurrences of crime has gone up within the same time period (2013-2019).")),
   h4(strong("2: Downtown districts (Belltown, Pioneer Square, Sodo, and South Lake Union) all have higher crime rates than other districts in most categories. ")),
-  h4(strong("3: Crime rates versus income has a negative correlations ")),
+  h4(strong("3: Crime rates versus income has a negative correlations")),
 )
 
 
