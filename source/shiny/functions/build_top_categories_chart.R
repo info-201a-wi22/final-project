@@ -17,7 +17,7 @@ build_top_categories_chart <- function(crime_data, chart_year) {
     labs(y = "Number of Crime's", x = "Crime Categories") + 
     coord_flip()
   crime_plot +
-    scale_y_continuous(labels = comma)
+    scale_y_continuous()
   
   
   return(crime_plot)
