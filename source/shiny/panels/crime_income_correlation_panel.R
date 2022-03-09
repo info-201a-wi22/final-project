@@ -38,13 +38,15 @@ crime_income_correlation_panel <- tabPanel(
     ),
     mainPanel(
       plotlyOutput("correlation_chart"),
-      h3("Generally speaking, do crime and income correlate?"),
+      hr(),
+      h3("Are crime and income correlated?"),
       p("Broadly speaking: income negatively correlates with crime rate for a given area in Seattle."),
       p("This trend is relatively constant across all categories and all income levels."),
       p("Property crime is the notable outlier where income actually positive correlates 
         with crime for areas with a median income between $80,000 and $100,000"),
       p("Societal crimes show stark correlative bands of negative correlation between different income bands.
         (Income levels between $80,000 and $100,000 have a stronger negative correlation than $100,000 and $200,000)"),
+      hr(),
       h3("What category of crime shows the strongest correlation with income?"),
       p("Crimes against persons (generally violent crime) show the strongest negative correlation with income."),
       p("Although all categories of crime show roughly a single order of 

@@ -4,6 +4,8 @@ library(ggplot2)
 library(maps)
 library(mapproj)
 library(shiny)
+library(scales)
+library(knitr)
 
 # load crimes dataset
 crime_data <- read.csv("../../data/seattle_crime_data.csv") %>%
@@ -53,5 +55,9 @@ server <- function(input, output) {
   
   output$crime_plot <- renderPlotly({ 
     return(build_top_categories_chart(crime_data, input$chart_year))
+  })
+  
+  output$markdown <- renderUI({
+    HTML(markdown::markdownToHTML(knit('../report_with_Rmd.Rmd', quiet = TRUE)))
   })
 }

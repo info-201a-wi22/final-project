@@ -14,11 +14,9 @@ build_top_categories_chart <- function(crime_data, chart_year) {
     ggplot(aes(x = offense)) +
     geom_bar() +
     ggtitle("Top 10 Crime Groups") +
-    labs(y = "Number of Crime's", x = "Crime Categories") + 
-    coord_flip()
-  crime_plot +
-    scale_y_continuous()
-  
+    labs(y = "Number of Crimes", x = "Crime Categories") + 
+    coord_flip() + 
+    scale_y_continuous(labels = comma)
   
   return(crime_plot)
 }

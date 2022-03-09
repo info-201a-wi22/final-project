@@ -15,6 +15,7 @@ build_crime_income_correlation_chart <- function(crime_data, income_data, correl
   correlation_plot <- ggplot(crime_category_income_data, aes(x = median_income, y = crimes_per_km, color = category)) +
     geom_point() +
     scale_y_continuous(trans = 'log10') +
+    scale_x_continuous(labels = comma) +
     ggtitle(paste("Crimes Density vs. Median Income in Seattle", correlation_year)) +
     xlab("Median Income") +
     ylab("Crimes per Km^2") +
