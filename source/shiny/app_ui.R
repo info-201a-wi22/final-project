@@ -15,14 +15,11 @@ ui <- navbarPage(
   theme = shinytheme("sandstone"),
   titlePanel(h1("Seattle Crime")),
   tags$style(
-    "li a {
-        font-size: 100px;
-        font-weight: bold;
-    }
-    .navbar{ background-color: #222526;}
+    "
     .navbar {min-height:100px !important;}
     "
   ),
+  
   intro_panel,
   top_crimes_panel,
   crime_heatmap_panel,
