@@ -30,5 +30,12 @@ ui <- navbarPage(
   summary_panel,
   conclusion_panel,
   report_panel,
+  
+  footer = list(
+    hr(),
+    HTML("Final Deliverable | Info 201 | Winter 2022 | 
+    Created by : Alexander Valentino Evans, Saranya Gores, Noah Adam Hellyer, Ryan Trieu"),
+    hr()
+  ),
 )
 

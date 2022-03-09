@@ -1,7 +1,34 @@
 conclusion_panel <- tabPanel(
   "Conclusion",
   sidebarLayout(
+    sidebarPanel(
+      h3("Conclusion"),
+      p("All in all, our project is very important to the city of Seattle. 
+  Our data can be very helpful to many different
+  people, whether it be to people in important settings like technologists, 
+  designers, policymaker or just to people visiting or looking to live in 
+  Seattle. It allows people to make choices to be in certain areas and how 
+  cautious you need to be when going to a specific location within Seattle.
+  Also, crime is a major thing that should be talked about in any big city
+  in any state. Big cities like Seattle suffer from criminal activity and projects 
+  like these is where we start to see change."),
+  hr(),
+        p(),
+        img(src = "https://mynorthwest.com/wp-content/uploads/2020/01/downtown-seattle-sdot-flickr-620x370.jpg",
+            width = "95%", height = "95%"),
+        p(),
+        img(src = "https://crosscut.com/sites/default/files/styles/max_992x992/public/images/articles/gettyimages-1195361131_web_0.jpg?itok=cRfcBRdZ",
+            width = "95%", height = "95%"),
+       p(),
+       img(src = "https://thehill.com/sites/default/files/styles/article_full/public/seattlepolice_053020getty.jpg?itok=OBIdmI2A",
+          width = "95%", height = "95%"),
+      
+    ),
+    
     mainPanel(
+      
+      img(src = "https://i.pinimg.com/originals/5b/88/13/5b8813bf700317bbad9164f69f270ec1.gif",
+          width = "95%", height = "95%"),
       
       h3("Findings"),
       p("With the data shown in our visualizations, there are many important findings 
@@ -33,7 +60,7 @@ conclusion_panel <- tabPanel(
   that to specific neighborhoods in Seattle. The higher income neighborhoods will
   have the least crimes to person and society, but will have an increased rate on 
   property and this is present from 2013-2019."),
-      
+  hr(),   
       h3("Discussion"), 
       p("Answering the research questions will create implications for a lot of important 
     settings. Our findings would allow many different people in different settings 
@@ -64,34 +91,8 @@ conclusion_panel <- tabPanel(
     used to make some very important decisions and could be used to tackle Seattle's 
     crime problems, but these are ways that could be the most effective and might 
     show an immediate impact in the decrease of criminal activity."),
-      
-      
-      h3("Conclusion"),
-      p("All in all, our project is very important to the city of Seattle. 
-  Our data can be very helpful to many different
-  people, whether it be to people in important settings like technologists, 
-  designers, policymaker or just to people visiting or looking to live in 
-  Seattle. It allows people to make choices to be in certain areas and how 
-  cautious you need to be when going to a specific location within Seattle.
-  Also, crime is a major thing that should be talked about in any big city
-  in any state. Big cities like Seattle suffer from criminal activity and projects 
-  like these is where we start to see change.")
-  ),
-  
-    sidebarPanel(
-        img(src = "https://momentummag.com/wp-content/uploads/2015/11/14634898052_447d10a07c_o.jpg",
-            width = "95%", height = "95%"),
-        p(),
-        img(src = "https://mynorthwest.com/wp-content/uploads/2020/01/downtown-seattle-sdot-flickr-620x370.jpg",
-            width = "95%", height = "95%"),
-        p(),
-        img(src = "https://crosscut.com/sites/default/files/styles/max_992x992/public/images/articles/gettyimages-1195361131_web_0.jpg?itok=cRfcBRdZ",
-            width = "95%", height = "95%"),
-        p(),
-        img(src = "https://thehill.com/sites/default/files/styles/article_full/public/seattlepolice_053020getty.jpg?itok=OBIdmI2A",
-            width = "95%", height = "95%"),
+  )
         
-    )
   )
 )
     

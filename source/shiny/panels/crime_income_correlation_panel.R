@@ -36,6 +36,7 @@ crime_income_correlation_panel <- tabPanel(
         property is not the object. (e.g. gambling, prostitution, and drug violations).")
       ),
     ),
+    
     mainPanel(
       plotlyOutput("correlation_chart"),
       hr(),

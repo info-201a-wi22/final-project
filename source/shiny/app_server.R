@@ -7,7 +7,7 @@ library(shiny)
 library(scales)
 
 # load crimes dataset
-crime_data <- read.csv("../../data/seattle_crime_data.csv") %>%
+crime_data <- read.csv("data/seattle_crime_data.csv") %>%
   mutate(year = str_extract(Report.Number, "^[0-9]{4}")) %>%
   filter(Crime.Against.Category != 'NOT_A_CRIME') %>%
   filter(Longitude != 0 & Latitude != 0) %>%
@@ -22,13 +22,13 @@ crime_data <- read.csv("../../data/seattle_crime_data.csv") %>%
 
 # filter the census data table for the 'GEO_ID_BLK' to keep only first 11 digits
 # and round up the latitude and longitude to be 2 decimal places
-census_data <- read.csv("../../data/2020_Census_Blocks_for_King_County___blocks20_area.csv") %>% 
+census_data <- read.csv("data/2020_Census_Blocks_for_King_County___blocks20_area.csv") %>% 
   summarize(geoloc = str_extract(GEO_ID_BLK, "^[0-9]{11}"), 
             longitude = round(INTPTLON20, 2), 
             latitude = round(INTPTLAT20, 2))
 
 # extract only 11 digits from the geolocation ID so that the data is joinable.
-income_data <- read.csv("../../data/income_by_location.csv") %>% 
+income_data <- read.csv("data/income_by_location.csv") %>% 
   #filter(Year == '2019') %>%
   mutate(geoloc = str_extract(ID.Geography, "[0-9]{11}$")) %>%
   summarize(income = Household.Income.by.Race, geoloc, year = Year) %>%

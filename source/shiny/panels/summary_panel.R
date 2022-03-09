@@ -1,6 +1,6 @@
 summary_panel <- tabPanel(
   "Summary", 
-  #titlePanel("Summary and Takeaways"),
+  titlePanel("Summary and Takeaways"),
   sidebarLayout(
     sidebarPanel(
   h2("Summary"),
