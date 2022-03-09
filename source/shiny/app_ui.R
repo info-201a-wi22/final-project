@@ -12,7 +12,8 @@ source("panels/report_panel.R")
 
 
 ui <- navbarPage(
-  theme = shinytheme("flatly"),
+  #theme = shinytheme("flatly"),
+  theme = "style.css",
   "Seattle Crime",
   intro_panel,
   top_crimes_panel,
