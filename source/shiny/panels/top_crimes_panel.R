@@ -32,7 +32,7 @@ top_crimes_main_content <- mainPanel(
 
 top_crimes_panel <- tabPanel(
   "Top Crimes",
-  titlePanel("Data Visualization 2"),
+  titlePanel("Top 10 Crimes In King County By Year"),
   sidebarLayout(top_crimes_sidebar_content,
                 top_crimes_main_content)
 )
