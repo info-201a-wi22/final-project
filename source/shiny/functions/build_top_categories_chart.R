@@ -19,4 +19,5 @@ build_top_categories_chart <- function(crime_data, chart_year) {
     scale_y_continuous(labels = comma)
   
   return(crime_plot)
+  
 }
