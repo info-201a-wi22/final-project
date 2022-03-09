@@ -1,6 +1,6 @@
 intro_panel <- tabPanel(
   "Introduction",
-  h2("Seattle Crime"),
+  h2("Introduction to Seattle Crime"),
   sidebarLayout(
     sidebarPanel(
       h3("Why Crime in Seattle?"),
